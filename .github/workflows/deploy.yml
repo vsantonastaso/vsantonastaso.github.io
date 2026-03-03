@@ -28,7 +28,7 @@ jobs:
         run: |
           hugo \
             --minify \
-            --baseURL https://vsantona.github.io/
+            --baseURL https://vsantonastaso.github.io/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

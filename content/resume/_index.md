@@ -15,7 +15,7 @@ Distributed Systems · Event-Driven Architectures · Cloud Native
 
 📍 Caserta, Italy  
 🔗 [LinkedIn](https://www.linkedin.com/in/vincenzo-santonastaso-549945b1/)  
-🐙 [GitHub](https://github.com/vsantona)
+🐙 [GitHub](https://github.com/vsantonastaso)
 
 ---
 
