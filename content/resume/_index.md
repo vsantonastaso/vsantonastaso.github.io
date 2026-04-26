@@ -3,12 +3,6 @@ title: "Resume"
 layout: "page"
 ---
 
-## 📄 Download
-
-[Download Resume (PDF)](/CV_Santonastaso_EN_v2.pdf)
-
----
-
 ## 👨‍💻 Vincenzo Santonastaso
 **Senior Software Engineer**  
 Distributed Systems · Event-Driven Architectures · Cloud Native
