@@ -4,18 +4,18 @@ layout: "page"
 ---
 
 ## 👨‍💻 Vincenzo Santonastaso
-**Senior Software Engineer**  
+**Senior Software Engineer @IBM | Debezium Core Team**  
 Distributed Systems · Event-Driven Architectures · Cloud Native
 
-📍 Caserta, Italy  
-🔗 [LinkedIn](https://www.linkedin.com/in/vincenzo-santonastaso-549945b1/)  
+📍 Naples, Italy  
+🔗 [LinkedIn](https://www.linkedin.com/in/vsantonastaso/)  
 🐙 [GitHub](https://github.com/vsantonastaso)
 
 ---
 
 ## 🧠 Profile
 
-Senior Software Engineer with 12+ years of experience designing and building distributed, cloud-native systems. Specialized in event-driven architectures, domain-driven design, and scalable backend platforms. Active open-source contributor to Debezium and advocate for clean architecture, software craftsmanship, and continuous learning.
+Senior Software Engineer with 12+ years of experience designing and building distributed, cloud-native systems. Specialized in event-driven architectures, domain-driven design, and scalable backend platforms. Active open-source contributor, core maintainer on Debezium and advocate for clean architecture, software craftsmanship, and continuous learning.
 
 ---
 
@@ -33,7 +33,7 @@ Docker, Kubernetes, AWS (EKS, MSK, IAM, S3), Jenkins, ArgoCD, Linux
 **Messaging & Streaming**  
 Kafka, Kafka Streams, RabbitMQ
 
-**Datastores**  
+**Datastore**  
 PostgreSQL, MySQL, Redis
 
 **Practices**  
@@ -43,10 +43,17 @@ Scrum, Kanban, TDD, Software Design Documentation, Mentoring
 
 ## 🏗 Professional Experience
 
-### **Senior Product Engineer - lastminute.com**
-*July 2022 – Present · Remote*
+### **Senior Software Engineer - IBM**
+*Mar 2026 – Present · Naples, Italy*
 
-Working on the transportation booking platform (B2B & B2C), developing external provider integrations and booking provisioning flows.
+Collaborative Partner with RedHat, working as a Core Maintainer on the Debezium project.
+
+---
+
+### **Senior Product Engineer - lastminute.com**
+*July 2022 – Mar 2026 · Chiasso, Switzerland*
+
+Working on the transportation booking platform (B2B & B2C), developing external provider integrations and reservation provisioning flows.
 
 - Designed and implemented microservices for pricing, booking and refund workflows
 - Led migration from monolithic to event-driven architectures using Kafka and Axon
@@ -139,9 +146,9 @@ Final grade: 108/110
 
 ---
 
-## 🌱 Open Source - Debezium
+## 🌱 Open Source - Debezium (Core Maintainer)
 
-Contributions:
+Core Team member since March 2026. Previous contributions:
 
 - Added Notification IDs, logging improvements, Kafka signal handling
 - Offset commit support for signal topics

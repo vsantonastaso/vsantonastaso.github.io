@@ -12,7 +12,7 @@ url = "/about/"
 weight = 10
 
 [[menu.main]]
-name = "Posts"
+name = "Posts & Publications"
 url = "/posts/"
 weight = 20
 
@@ -34,6 +34,10 @@ url = "https://github.com/vsantonastaso"
 name = "linkedin"
 url = "https://www.linkedin.com/in/vincenzo-santonastaso-549945b1/"
 
+
+[[params.socialIcons]]
+name = "discord"
+url = "https://discordapp.com/users/1507397497671123004"
 
 [[params.socialIcons]]
 name = "gmail"

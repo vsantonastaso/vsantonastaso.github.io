@@ -123,6 +123,12 @@ body {
     transform: translateY(-50%);
 }
 
+.orbit-discord {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 .orbit-gmail {
     left: 0;
     top: 50%;
