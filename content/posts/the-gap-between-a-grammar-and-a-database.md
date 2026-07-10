@@ -1,7 +1,7 @@
 +++
 title = "The Gap Between a Grammar and a Database"
 date = "2026-07-09T00:00:00Z"
-draft = true
+draft = false
 summary = "What migrating a MySQL DDL parser between ANTLR grammars taught me about the structural gap between grammar specifications and real database behavior."
 categories = ["posts"]
 author = "Vincenzo Santonastaso"
