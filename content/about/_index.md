@@ -3,11 +3,11 @@ title: "About me"
 layout: "page"
 ---
 
-Hi there.  
-My name is Vincenzo. I didn’t plan to become a software engineer, it just kind of happened and then things got out of control.
+  My name is Vincenzo.   
+  I didn’t plan to become a software engineer, it just kind of happened and then things got out of control.
 
 I currently work as a **Senior Software Engineer at IBM**, where I'm a **core maintainer of Debezium**, the open-source Change Data Capture platform. 
-My daily work is about making sure that database changes flow reliably into event streams, building connectors that survive production chaos, thinking about and proposing new ideas to grow the project, and working with a global community of users dealing with real-world data streaming challenges.
+My daily work is about making sure that database changes flow reliably into event streams, building connectors that survive production , thinking about and proposing new ideas to grow the project, and working with a global community of users dealing with real-world data streaming challenges.
 
 Before that, I worked as a **Senior Product Engineer at lastminute.com**, where I built and evolved the distributed systems behind flight booking, pricing and refunding. My day there was about making sure that millions of searches and bookings flowed correctly through a complex ecosystem of providers, microservices and event streams, even when traffic was high and things went wrong.
 

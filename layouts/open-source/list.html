@@ -1,0 +1,36 @@
+{{ define "main" }}
+
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+  {{ with .Params.subtitle }}<p class="page-subtitle">{{ . }}</p>{{ end }}
+</header>
+
+{{ $stories := .Pages.ByWeight }}
+
+<div class="oss-projects">
+  {{ range $project := .Params.projects }}
+  {{ $items := where $stories "Params.project" $project.name }}
+  <details class="oss-project">
+    <summary>
+      <span class="oss-project-info">
+        <span class="oss-project-name">{{ $project.name }}</span>
+        <span class="oss-project-tagline">{{ $project.tagline }}</span>
+      </span>
+      <span class="oss-project-role">{{ $project.role }}</span>
+      <span class="oss-chevron" aria-hidden="true"></span>
+    </summary>
+
+    <div class="oss-project-body">
+      {{ range $items }}
+      <section class="oss-story">
+        <h3 class="oss-story-title">{{ .Title }}</h3>
+        <div class="talk-abstract">{{ .Content }}</div>
+      </section>
+      {{ end }}
+      <a class="oss-repo" href="{{ $project.repo }}" target="_blank" rel="noopener">View the project on GitHub</a>
+    </div>
+  </details>
+  {{ end }}
+</div>
+
+{{ end }}

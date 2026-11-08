@@ -1,0 +1,43 @@
+{{ define "main" }}
+
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+</header>
+
+<div class="talks-feed">
+  {{ range .Pages.ByDate.Reverse }}
+  {{ $talk := . }}
+  <article class="talk-card">
+    {{ with $talk.Params.youtube }}
+    <div class="talk-video">
+      <iframe
+        src="https://www.youtube-nocookie.com/embed/{{ . }}{{ with $talk.Params.start }}?start={{ . }}{{ end }}"
+        title="{{ $talk.Title }}"
+        loading="lazy"
+        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
+    {{ end }}
+
+    <div class="talk-body">
+      {{ if or .Params.event .Params.talkDate }}
+      <div class="talk-meta">
+        {{ with .Params.event }}<span>{{ . }}</span>{{ end }}
+        {{ with .Params.talkDate }}<span>{{ . }}</span>{{ end }}
+      </div>
+      {{ end }}
+
+      <h2 class="talk-title">{{ .Title }}</h2>
+      <div class="talk-abstract">{{ .Content }}</div>
+
+      <div class="talk-links">
+        {{ with .Params.video }}<a href="{{ . }}" target="_blank" rel="noopener" aria-label="Watch on YouTube" title="Watch on YouTube">{{ partial "svg/youtube.svg" }} YouTube</a>{{ end }}
+        {{ with .Params.conference }}<a href="{{ . }}" target="_blank" rel="noopener">Conference page</a>{{ end }}
+        {{ with .Params.deck }}<a href="{{ . }}" target="_blank" rel="noopener">Deck</a>{{ end }}
+      </div>
+    </div>
+  </article>
+  {{ end }}
+</div>
+
+{{ end }}

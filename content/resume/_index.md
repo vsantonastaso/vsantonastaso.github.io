@@ -15,14 +15,14 @@ Distributed Systems · Event-Driven Architectures · Cloud Native
 
 ## 🧠 Profile
 
-Senior Software Engineer with 12+ years of experience designing and building distributed, cloud-native systems. Specialized in event-driven architectures, domain-driven design, and scalable backend platforms. Active open-source contributor, core maintainer on Debezium and advocate for clean architecture, software craftsmanship, and continuous learning.
+Senior Software Engineer with 12+ years of experience designing and building distributed, cloud-native systems. Specialized in event-driven architectures, change data capture, domain-driven design, and scalable backend platforms. Core maintainer of Debezium, contributor to ANTLR and Apache SeaTunnel. Conference speaker and advocate for clean architecture, software craftsmanship, and continuous learning.
 
 ---
 
 ## 🧰 Technical Skills
 
 **Languages & Frameworks**  
-Java (11–24), Kotlin, Spring Boot, Spring Cloud, Spring Reactive, Axon Framework
+Java (11–24), Kotlin, Spring Boot, Spring Cloud, Spring Reactive, Axon Framework, Quarkus, ANTLR
 
 **Architecture & Patterns**  
 Event-Driven Architecture, CQRS, Event Sourcing, Domain-Driven Design, Hexagonal Architecture, Functional Programming, Structured & Concurrent Programming
@@ -31,13 +31,13 @@ Event-Driven Architecture, CQRS, Event Sourcing, Domain-Driven Design, Hexagonal
 Docker, Kubernetes, AWS (EKS, MSK, IAM, S3), Jenkins, ArgoCD, Linux
 
 **Messaging & Streaming**  
-Kafka, Kafka Streams, RabbitMQ
+Kafka, Kafka Connect, Kafka Streams, Change Data Capture, RabbitMQ
 
 **Datastore**  
-PostgreSQL, MySQL, Redis
+PostgreSQL, MySQL, Neo4j, Redis
 
 **Practices**  
-Scrum, Kanban, TDD, Software Design Documentation, Mentoring
+Scrum, Kanban, TDD, Software Design Documentation, Open-Source, Technical Writing, Public Speaking, Mentoring
 
 ---
 
@@ -47,6 +47,11 @@ Scrum, Kanban, TDD, Software Design Documentation, Mentoring
 *Mar 2026 – Present · Naples, Italy*
 
 Collaborative Partner with RedHat, working as a Core Maintainer on the Debezium project.
+
+- Worked with ANTLR grammars, migrating the MySQL parser and contributing fixes upstream
+- Integrated graph databases (Neo4j) with Debezium, in collaboration with the official Neo4j team.
+- Designed, implemented and tested connectors and transformations
+- Maintained CI pipelines and wrote technical articles and conference talks
 
 ---
 
@@ -96,6 +101,27 @@ Vodafone VPN provisioning and management platform.
 
 ## 🚀 Selected Projects
 
+### **MySQL Parser Migration to Oracle's ANTLR Grammar (2026)**
+*Debezium · ANTLR · Java · MySQL*
+
+Replaced the unmaintained Positive Technologies MySQL grammar in Debezium's MySQL connector with Oracle's grammar, which ANTLR maintains. Fixed the DDL parsing edge cases that followed, in Debezium and upstream in ANTLR grammars-v4.
+
+---
+
+### **Neo4j Integration for Debezium (2026)**
+*Debezium · Neo4j · Kafka Connect · Java*
+
+Brought graph databases into Debezium's ecosystem with a relational-to-graph transform, a graph-to-relational converter, design documents and runnable examples. Worked with the official Neo4j team, presented the integration and started a collaboration.
+
+---
+
+### **Scaling CDC Across Teams with Debezium Platform (2026)**
+*Debezium Platform · Conference talk*
+
+Talk and live demo at Conf42 Platform Engineering 2026 on standardising CDC adoption, showing how three teams consume data from one database through self-service pipelines.
+
+---
+
 ### **Supply as a Platform (2025)**
 *Kotlin · Axon · DDD · Event Sourcing · Microservices*
 
@@ -144,14 +170,3 @@ Final grade: 108/110
 
 - Spring Certified Professional (2020)
 
----
-
-## 🌱 Open Source - Debezium (Core Maintainer)
-
-Core Team member since March 2026. Previous contributions:
-
-- Added Notification IDs, logging improvements, Kafka signal handling
-- Offset commit support for signal topics
-- Improved JMX notification formats
-
----

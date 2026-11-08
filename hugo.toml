@@ -17,6 +17,16 @@ url = "/posts/"
 weight = 20
 
 [[menu.main]]
+name = "Open Source"
+url = "/open-source/"
+weight = 22
+
+[[menu.main]]
+name = "Talks & Presentations"
+url = "/talks/"
+weight = 25
+
+[[menu.main]]
 name = "Resume"
 url = "/resume/"
 weight = 3
